@@ -1,0 +1,55 @@
+<svg width="800" height="700" viewBox="0 0 800 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="50%" stop-color="#F6EFE6"/>
+      <stop offset="100%" stop-color="#F0E6D8"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FAF5EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="700" fill="url(#bgGrad)"/>
+  <rect width="800" height="700" fill="url(#glowGrad)"/>
+
+  <!-- Subtle Delicate Border Frame -->
+  <rect x="24" y="24" width="752" height="652" rx="12" stroke="#BA7A83" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="32" y="32" width="736" height="636" rx="8" stroke="#2C211E" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Corner Flourish Accents -->
+  <path d="M 40 54 C 40 44, 44 40, 54 40" stroke="#BA7A83" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 760 54 C 760 44, 756 40, 746 40" stroke="#BA7A83" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 40 646 C 40 656, 44 660, 54 660" stroke="#BA7A83" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 760 646 C 760 656, 756 660, 746 660" stroke="#BA7A83" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Center Artwork: Elegant Tiered Cake Silhouette & Signature Heart -->
+  <g transform="translate(400, 290)">
+    <!-- Pedestal Base -->
+    <path d="M -60 70 L 60 70 M -35 70 L -15 95 L 15 95 L 35 70 M -45 95 L 45 95" stroke="#BA7A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Bottom Tier -->
+    <rect x="-80" y="0" width="160" height="68" rx="4" fill="#FFFFFF" fill-opacity="0.5" stroke="#BA7A83" stroke-width="1.8"/>
+    <!-- Decorative Scallop Piping on Bottom Tier -->
+    <path d="M -80 18 Q -60 28 -40 18 Q -20 28 0 18 Q 20 28 40 18 Q 60 28 80 18" fill="none" stroke="#BA7A83" stroke-opacity="0.45" stroke-width="1.4"/>
+    
+    <!-- Top Tier -->
+    <rect x="-52" y="-56" width="104" height="56" rx="4" fill="#FFFFFF" fill-opacity="0.6" stroke="#BA7A83" stroke-width="1.8"/>
+    <path d="M -52 -40 Q -35 -30 -17 -40 Q 0 -30 17 -40 Q 35 -30 52 -40" fill="none" stroke="#BA7A83" stroke-opacity="0.45" stroke-width="1.4"/>
+
+    <!-- Cake Topper: Delicate Signature Heart -->
+    <path d="M 0 -72 C -6 -82, -18 -80, -18 -68 C -18 -58, -2 -50, 0 -42 C 2 -50, 18 -58, 18 -68 C 18 -80, 6 -82, 0 -72 Z" fill="#BA7A83" fill-opacity="0.15" stroke="#BA7A83" stroke-width="1.6" stroke-linejoin="round"/>
+    <line x1="0" y1="-56" x2="0" y2="-42" stroke="#BA7A83" stroke-width="1.6"/>
+  </g>
+
+  <!-- Typography -->
+  <!-- Brand Label -->
+  <text x="400" y="450" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="600" fill="#2C211E" letter-spacing="1">M² Cakery Portfolio</text>
+
+  <!-- Status / Information Note -->
+  <text x="400" y="482" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#BA7A83" letter-spacing="2.5">PHOTOGRAPH TO BE ADDED</text>
+  
+  <text x="400" y="508" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#2C211E" fill-opacity="0.55" letter-spacing="0.5">Owner’s bespoke celebration design</text>
+</svg>
